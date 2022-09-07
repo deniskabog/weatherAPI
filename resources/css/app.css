@@ -1,0 +1,59 @@
+.current__wrapper {
+display: flex;
+align-items: flex-end;
+padding-left: 165px;
+background-position: 20px center;
+background-repeat: no-repeat;
+background-size: 120px;
+}
+
+.current__main {
+    flex-basis: 280px;
+    margin-right: 10px;
+    color: #464646;
+}
+.forecast_current {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.current__date {
+    font-size: 20px;
+    color: #464646;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.current__temperature {
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+.current__description {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.current__feels-temperature {
+    font-size: 14px;
+    line-height: 17px;
+    color: #aab8c2;
+}
+.current__other {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+.current__other-item {
+    margin-right: 30px;
+}
+.current__other-value {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #464646;
+    text-transform: lowercase;
+}
+.current__other-label {
+    font-size: 12px;
+    line-height: 14px;
+    color: #aab8c2;
+}

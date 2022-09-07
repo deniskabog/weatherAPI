@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@yield('title')</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.css" type="text/css">
+
+</head>
+<div class="container" style="height: auto">
+<body class="p-3 text-bg-dark">
+<header class="p-3 text-bg-dark">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="/weather" class="nav-link px-2 text-white">Погода</a></li>
+            </ul>
+
+{{--            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">--}}
+{{--                <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."--}}
+{{--                       aria-label="Search">--}}
+{{--            </form>--}}
+
+{{--            <div class="text-end">--}}
+{{--                <button type="button" class="btn btn-outline-light me-2">Login</button>--}}
+{{--                <button type="button" class="btn btn-warning">Sign-up</button>--}}
+{{--            </div>--}}
+        </div>
+    </div>
+</header>
+<div class="mb-3 border-bottom"></div>
+
+@yield('header_content')
+
+
+</div>
+</body>
+
+</html>
